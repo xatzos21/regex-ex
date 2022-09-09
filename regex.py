@@ -19,10 +19,6 @@ pattern = "\d"
 result = re.search(pattern, text)
 print(result)
 
-# function extractEmails (text) {
-#   return text.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9_-]+)/gi);
-# }
-
 
 pattern1 = r'[\w.+-]+@[\w-]+\.[\w.-]+'
 result1 = re.findall(pattern1, text)
